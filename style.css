@@ -20,9 +20,10 @@ body,html{
     .content{
         height: 100vh;
         width: 100%;
-        /* position: fixed; */
-        position: sticky;
+        position: fixed;
 
+        /* position: sticky; */
+        /*position stikcy doesn't work with lenis  */
         background-color: pink;
     }
     a{
